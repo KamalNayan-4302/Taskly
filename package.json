@@ -1,0 +1,20 @@
+{
+  "name": "taskly",
+  "version": "1.0.0",
+  "description": "Taskly is a sleek and intuitive web application designed to streamline task management and boost productivity. Built with HTML, CSS, and JavaScript, it offers a user-friendly interface for creating, organizing, and tracking tasks effortlessly.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamalNayan-4302/Taskly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamalNayan-4302/Taskly/issues"
+  },
+  "homepage": "https://github.com/KamalNayan-4302/Taskly#readme"
+}
