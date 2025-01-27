@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,6 +29,61 @@
             </ul>
         </section>
     </main>
+
+    <script src="app.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taskly - Simplify your tasks, amplify your productivity">
+    <title>Taskly</title>
+    <link rel="stylesheet" href="do.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Taskly</h1>
+        <h5>Simplify your tasks, amplify your productivity</h5>
+    </header>
+
+    <main>
+        <!-- Add Task Section -->
+        <section id="add-task" aria-labelledby="add-task-title">
+            <h2 id="add-task-title" hidden>Add a New Task</h2>
+            <div>
+                <input 
+                    type="text" 
+                    id="task-input" 
+                    placeholder="Add a new task..." 
+                    aria-label="New Task Input" 
+                />
+                <button id="add-button" aria-label="Add Task">Add</button>
+            </div>
+        </section>
+
+        <!-- Pending Tasks Section -->
+        <section id="pending-tasks" aria-labelledby="pending-tasks-title">
+            <h2 id="pending-tasks-title">Pending Tasks</h2>
+            <ul id="pending-list" aria-live="polite" aria-relevant="all">
+                <!-- Pending tasks will dynamically appear here -->
+            </ul>
+        </section>
+
+        <!-- Completed Tasks Section -->
+        <section id="completed-tasks" aria-labelledby="completed-tasks-title">
+            <h2 id="completed-tasks-title">Completed Tasks</h2>
+            <ul id="completed-list" aria-live="polite" aria-relevant="all">
+                <!-- Completed tasks will dynamically appear here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Taskly. All rights reserved.</p>
+    </footer>
 
     <script src="app.js"></script>
 </body>
